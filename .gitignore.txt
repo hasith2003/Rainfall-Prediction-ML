@@ -1,0 +1,35 @@
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore dataset files (optional - remove lines if you want to include small samples)
+*.csv
+
+# Ignore model files
+*.pkl
+*.h5
+*.joblib
+
+# Ignore environment files
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# VS Code settings (if using VS Code)
+.vscode/
+
+# Ignore system-generated folders
+.idea/
